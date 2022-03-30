@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.15.3
 
 # Update package index and install go + git
 RUN apk add --update go git bash libc-dev
